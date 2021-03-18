@@ -1,4 +1,4 @@
 # workoutapp
 A flutter app based on Neumorphic and minimilistic design
-![image](https://user-images.githubusercontent.com/68404906/111564322-8c765280-87bf-11eb-8816-31031f6c5801.png)
 
+![image](https://user-images.githubusercontent.com/68404906/111564720-3eae1a00-87c0-11eb-9129-708889135c8b.png)
