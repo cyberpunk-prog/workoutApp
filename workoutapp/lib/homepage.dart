@@ -72,7 +72,7 @@ class _HomePageState extends State<HomePage> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Container(
-                    width: 150,
+                    width: 70,
                     decoration: BoxDecoration(
                       image: DecorationImage(
                         image: AssetImage('lib/assets/1.png'),
@@ -584,260 +584,248 @@ class _HomePageState extends State<HomePage> {
             SizedBox(
               height: 10,
             ),
-            Row(
-              children: [
-                Container(
-                  height: 180,
-                  //color: Colors.black54,
-                  child: ListView(scrollDirection: Axis.horizontal, children: <
-                      Widget>[
-                    SizedBox(
-                      width: 15,
-                    ),
-                    Column(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        SizedBox(
-                          width: 1,
-                        ),
-                        Container(
-                            width: 90,
-                            height: 150,
-                            // color: Colors.blue,
-                            child: NeumorphicButton(
-                              padding: EdgeInsets.all(10),
-                              style: NeumorphicStyle(
-                                color: Colors.white,
-                                lightSource: LightSource.topRight,
-                              ),
-                              onPressed: () => {},
-                              child: Column(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceEvenly,
-                                children: [
-                                  NeumorphicText(
-                                    'TUEx',
-                                    style: NeumorphicStyle(
-                                        shadowDarkColor: Colors.black,
-                                        shadowLightColorEmboss: Colors.white,
-                                        shape: NeumorphicShape.flat,
-                                        boxShape: NeumorphicBoxShape.roundRect(
-                                            BorderRadius.circular(12)),
-                                        depth: Neumorphic.MAX_INTENSITY,
-                                        lightSource: LightSource.topLeft,
-                                        color: Colors.black),
-                                    textStyle: NeumorphicTextStyle(
-                                        fontWeight: FontWeight.bold),
-                                  ),
-                                  NeumorphicText(
-                                    '08',
-                                    style: NeumorphicStyle(
-                                        shadowDarkColor: Colors.black,
-                                        shadowLightColorEmboss: Colors.white,
-                                        shape: NeumorphicShape.flat,
-                                        boxShape: NeumorphicBoxShape.roundRect(
-                                            BorderRadius.circular(12)),
-                                        depth: Neumorphic.MAX_INTENSITY,
-                                        lightSource: LightSource.topLeft,
-                                        color: Colors.black),
-                                    textStyle: NeumorphicTextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 20),
-                                  ),
-                                ],
-                              ),
-                            )),
-                        SizedBox(
-                          width: 5,
-                        ),
-                      ],
-                    ),
-                    SizedBox(
-                      width: 15,
-                    ),
-                    Column(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        SizedBox(
-                          width: 1,
-                        ),
-                        Container(
-                            width: 90,
-                            height: 150,
-                            // color: Colors.blue,
-                            child: NeumorphicButton(
-                              padding: EdgeInsets.all(10),
-                              style: NeumorphicStyle(
-                                color: Colors.white,
-                                lightSource: LightSource.topRight,
-                              ),
-                              onPressed: () => {},
-                              child: Column(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceEvenly,
-                                children: [
-                                  NeumorphicText(
-                                    'TUE',
-                                    style: NeumorphicStyle(
-                                        shadowDarkColor: Colors.black,
-                                        shadowLightColorEmboss: Colors.white,
-                                        shape: NeumorphicShape.flat,
-                                        boxShape: NeumorphicBoxShape.roundRect(
-                                            BorderRadius.circular(12)),
-                                        depth: Neumorphic.MAX_INTENSITY,
-                                        lightSource: LightSource.topLeft,
-                                        color: Colors.black),
-                                    textStyle: NeumorphicTextStyle(
-                                        fontWeight: FontWeight.bold),
-                                  ),
-                                  NeumorphicText(
-                                    '09',
-                                    style: NeumorphicStyle(
-                                        shadowDarkColor: Colors.black,
-                                        shadowLightColorEmboss: Colors.white,
-                                        shape: NeumorphicShape.flat,
-                                        boxShape: NeumorphicBoxShape.roundRect(
-                                            BorderRadius.circular(12)),
-                                        depth: Neumorphic.MAX_INTENSITY,
-                                        lightSource: LightSource.topLeft,
-                                        color: Colors.black),
-                                    textStyle: NeumorphicTextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 20),
-                                  ),
-                                ],
-                              ),
-                            )),
-                        SizedBox(
-                          width: 5,
-                        ),
-                      ],
-                    ),
-                    SizedBox(
-                      width: 15,
-                    ),
-                    Column(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        SizedBox(
-                          width: 1,
-                        ),
-                        Container(
-                            width: 90,
-                            height: 150,
-                            // color: Colors.blue,
-                            child: NeumorphicButton(
-                              padding: EdgeInsets.all(10),
-                              style: NeumorphicStyle(
-                                color: Colors.white,
-                                lightSource: LightSource.topRight,
-                              ),
-                              onPressed: () => {},
-                              child: Column(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceEvenly,
-                                children: [
-                                  NeumorphicText(
-                                    'WED',
-                                    style: NeumorphicStyle(
-                                        shadowDarkColor: Colors.black,
-                                        shadowLightColorEmboss: Colors.white,
-                                        shape: NeumorphicShape.flat,
-                                        boxShape: NeumorphicBoxShape.roundRect(
-                                            BorderRadius.circular(12)),
-                                        depth: Neumorphic.MAX_INTENSITY,
-                                        lightSource: LightSource.topLeft,
-                                        color: Colors.black),
-                                    textStyle: NeumorphicTextStyle(
-                                        fontWeight: FontWeight.bold),
-                                  ),
-                                  NeumorphicText(
-                                    '10',
-                                    style: NeumorphicStyle(
-                                        shadowDarkColor: Colors.black,
-                                        shadowLightColorEmboss: Colors.white,
-                                        shape: NeumorphicShape.flat,
-                                        boxShape: NeumorphicBoxShape.roundRect(
-                                            BorderRadius.circular(12)),
-                                        depth: Neumorphic.MAX_INTENSITY,
-                                        lightSource: LightSource.topLeft,
-                                        color: Colors.black),
-                                    textStyle: NeumorphicTextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 20),
-                                  ),
-                                ],
-                              ),
-                            )),
-                        SizedBox(
-                          width: 5,
-                        ),
-                      ],
-                    ),
-                    SizedBox(
-                      width: 15,
-                    ),
-                    Column(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        SizedBox(
-                          width: 1,
-                        ),
-                        Container(
-                            width: 90,
-                            height: 150,
-                            // color: Colors.blue,
-                            child: NeumorphicButton(
-                              padding: EdgeInsets.all(10),
-                              style: NeumorphicStyle(
-                                color: Colors.white,
-                                lightSource: LightSource.topRight,
-                              ),
-                              onPressed: () => {},
-                              child: Column(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceEvenly,
-                                children: [
-                                  NeumorphicText(
-                                    'THU',
-                                    style: NeumorphicStyle(
-                                        shadowDarkColor: Colors.black,
-                                        shadowLightColorEmboss: Colors.white,
-                                        shape: NeumorphicShape.flat,
-                                        boxShape: NeumorphicBoxShape.roundRect(
-                                            BorderRadius.circular(12)),
-                                        depth: Neumorphic.MAX_INTENSITY,
-                                        lightSource: LightSource.topLeft,
-                                        color: Colors.black),
-                                    textStyle: NeumorphicTextStyle(
-                                        fontWeight: FontWeight.bold),
-                                  ),
-                                  NeumorphicText(
-                                    '11',
-                                    style: NeumorphicStyle(
-                                        shadowDarkColor: Colors.black,
-                                        shadowLightColorEmboss: Colors.white,
-                                        shape: NeumorphicShape.flat,
-                                        boxShape: NeumorphicBoxShape.roundRect(
-                                            BorderRadius.circular(12)),
-                                        depth: Neumorphic.MAX_INTENSITY,
-                                        lightSource: LightSource.topLeft,
-                                        color: Colors.black),
-                                    textStyle: NeumorphicTextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 20),
-                                  ),
-                                ],
-                              ),
-                            )),
-                        SizedBox(
-                          width: 5,
-                        ),
-                      ],
-                    ),
-                  ]),
+            Container(
+              height: 180,
+              //color: Colors.black54,
+              child:
+                  ListView(scrollDirection: Axis.horizontal, children: <Widget>[
+                SizedBox(
+                  width: 15,
                 ),
-              ],
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    SizedBox(
+                      width: 1,
+                    ),
+                    Container(
+                        width: 90,
+                        height: 150,
+                        // color: Colors.blue,
+                        child: NeumorphicButton(
+                          padding: EdgeInsets.all(10),
+                          style: NeumorphicStyle(
+                            color: Colors.white,
+                            lightSource: LightSource.topRight,
+                          ),
+                          onPressed: () => {},
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            children: [
+                              NeumorphicText(
+                                'MON',
+                                style: NeumorphicStyle(
+                                    shadowDarkColor: Colors.black,
+                                    shadowLightColorEmboss: Colors.white,
+                                    shape: NeumorphicShape.flat,
+                                    boxShape: NeumorphicBoxShape.roundRect(
+                                        BorderRadius.circular(12)),
+                                    depth: Neumorphic.MAX_INTENSITY,
+                                    lightSource: LightSource.topLeft,
+                                    color: Colors.black),
+                                textStyle: NeumorphicTextStyle(
+                                    fontWeight: FontWeight.bold),
+                              ),
+                              NeumorphicText(
+                                '08',
+                                style: NeumorphicStyle(
+                                    shadowDarkColor: Colors.black,
+                                    shadowLightColorEmboss: Colors.white,
+                                    shape: NeumorphicShape.flat,
+                                    boxShape: NeumorphicBoxShape.roundRect(
+                                        BorderRadius.circular(12)),
+                                    depth: Neumorphic.MAX_INTENSITY,
+                                    lightSource: LightSource.topLeft,
+                                    color: Colors.black),
+                                textStyle: NeumorphicTextStyle(
+                                    fontWeight: FontWeight.bold, fontSize: 20),
+                              ),
+                            ],
+                          ),
+                        )),
+                    SizedBox(
+                      width: 5,
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  width: 15,
+                ),
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    SizedBox(
+                      width: 1,
+                    ),
+                    Container(
+                        width: 90,
+                        height: 150,
+                        // color: Colors.blue,
+                        child: NeumorphicButton(
+                          padding: EdgeInsets.all(10),
+                          style: NeumorphicStyle(
+                            color: Colors.white,
+                            lightSource: LightSource.topRight,
+                          ),
+                          onPressed: () => {},
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            children: [
+                              NeumorphicText(
+                                'TUE',
+                                style: NeumorphicStyle(
+                                    shadowDarkColor: Colors.black,
+                                    shadowLightColorEmboss: Colors.white,
+                                    shape: NeumorphicShape.flat,
+                                    boxShape: NeumorphicBoxShape.roundRect(
+                                        BorderRadius.circular(12)),
+                                    depth: Neumorphic.MAX_INTENSITY,
+                                    lightSource: LightSource.topLeft,
+                                    color: Colors.black),
+                                textStyle: NeumorphicTextStyle(
+                                    fontWeight: FontWeight.bold),
+                              ),
+                              NeumorphicText(
+                                '09',
+                                style: NeumorphicStyle(
+                                    shadowDarkColor: Colors.black,
+                                    shadowLightColorEmboss: Colors.white,
+                                    shape: NeumorphicShape.flat,
+                                    boxShape: NeumorphicBoxShape.roundRect(
+                                        BorderRadius.circular(12)),
+                                    depth: Neumorphic.MAX_INTENSITY,
+                                    lightSource: LightSource.topLeft,
+                                    color: Colors.black),
+                                textStyle: NeumorphicTextStyle(
+                                    fontWeight: FontWeight.bold, fontSize: 20),
+                              ),
+                            ],
+                          ),
+                        )),
+                    SizedBox(
+                      width: 5,
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  width: 15,
+                ),
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    SizedBox(
+                      width: 1,
+                    ),
+                    Container(
+                        width: 90,
+                        height: 150,
+                        // color: Colors.blue,
+                        child: NeumorphicButton(
+                          padding: EdgeInsets.all(10),
+                          style: NeumorphicStyle(
+                            color: Colors.white,
+                            lightSource: LightSource.topRight,
+                          ),
+                          onPressed: () => {},
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            children: [
+                              NeumorphicText(
+                                'WED',
+                                style: NeumorphicStyle(
+                                    shadowDarkColor: Colors.black,
+                                    shadowLightColorEmboss: Colors.white,
+                                    shape: NeumorphicShape.flat,
+                                    boxShape: NeumorphicBoxShape.roundRect(
+                                        BorderRadius.circular(12)),
+                                    depth: Neumorphic.MAX_INTENSITY,
+                                    lightSource: LightSource.topLeft,
+                                    color: Colors.black),
+                                textStyle: NeumorphicTextStyle(
+                                    fontWeight: FontWeight.bold),
+                              ),
+                              NeumorphicText(
+                                '10',
+                                style: NeumorphicStyle(
+                                    shadowDarkColor: Colors.black,
+                                    shadowLightColorEmboss: Colors.white,
+                                    shape: NeumorphicShape.flat,
+                                    boxShape: NeumorphicBoxShape.roundRect(
+                                        BorderRadius.circular(12)),
+                                    depth: Neumorphic.MAX_INTENSITY,
+                                    lightSource: LightSource.topLeft,
+                                    color: Colors.black),
+                                textStyle: NeumorphicTextStyle(
+                                    fontWeight: FontWeight.bold, fontSize: 20),
+                              ),
+                            ],
+                          ),
+                        )),
+                    SizedBox(
+                      width: 5,
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  width: 15,
+                ),
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    SizedBox(
+                      width: 1,
+                    ),
+                    Container(
+                        width: 90,
+                        height: 150,
+                        // color: Colors.blue,
+                        child: NeumorphicButton(
+                          padding: EdgeInsets.all(10),
+                          style: NeumorphicStyle(
+                            color: Colors.white,
+                            lightSource: LightSource.topRight,
+                          ),
+                          onPressed: () => {},
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            children: [
+                              NeumorphicText(
+                                'THU',
+                                style: NeumorphicStyle(
+                                    shadowDarkColor: Colors.black,
+                                    shadowLightColorEmboss: Colors.white,
+                                    shape: NeumorphicShape.flat,
+                                    boxShape: NeumorphicBoxShape.roundRect(
+                                        BorderRadius.circular(12)),
+                                    depth: Neumorphic.MAX_INTENSITY,
+                                    lightSource: LightSource.topLeft,
+                                    color: Colors.black),
+                                textStyle: NeumorphicTextStyle(
+                                    fontWeight: FontWeight.bold),
+                              ),
+                              NeumorphicText(
+                                '11',
+                                style: NeumorphicStyle(
+                                    shadowDarkColor: Colors.black,
+                                    shadowLightColorEmboss: Colors.white,
+                                    shape: NeumorphicShape.flat,
+                                    boxShape: NeumorphicBoxShape.roundRect(
+                                        BorderRadius.circular(12)),
+                                    depth: Neumorphic.MAX_INTENSITY,
+                                    lightSource: LightSource.topLeft,
+                                    color: Colors.black),
+                                textStyle: NeumorphicTextStyle(
+                                    fontWeight: FontWeight.bold, fontSize: 20),
+                              ),
+                            ],
+                          ),
+                        )),
+                    SizedBox(
+                      width: 5,
+                    ),
+                  ],
+                ),
+              ]),
             ),
           ],
         ),
