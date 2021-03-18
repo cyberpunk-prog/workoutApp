@@ -1,16 +1,6 @@
 # workoutapp
+A flutter app based on Neumorphic and minimilistic design
+# Screenshots
+![image](https://user-images.githubusercontent.com/68404906/111571092-2e03a100-87cc-11eb-9e9c-60539a4da29f.png)
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://user-images.githubusercontent.com/68404906/111564720-3eae1a00-87c0-11eb-9129-708889135c8b.png)
